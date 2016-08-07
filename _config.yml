@@ -1,0 +1,9 @@
+# Site settings
+title: Mud and Miracles
+url: "https://mudandmiracles.org"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: css
+  style: :compressed
