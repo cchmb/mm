@@ -182,6 +182,10 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
                 font-size: 30px;
+                img {
+                    max-width: 90%;
+                    width: 700px;
+                }
             }
             hr {
                 margin: 30px auto;
