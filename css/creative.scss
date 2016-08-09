@@ -165,7 +165,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/machu-picchu.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/machu-picchu.jpg');
     background-position: center center;
     @include background-cover;
     text-align: center;
@@ -190,10 +190,9 @@ header {
             hr {
                 margin: 30px auto;
             }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                font-size: 16px;
+            h2 {
+                @include serif-font;
+                font-size: 36px;
                 margin-bottom: 50px;
             }
         }
@@ -271,7 +270,7 @@ header {
             }
             .project-category {
                 text-transform: uppercase;
-                font-weight: 600;
+                font-weight: 700;
                 font-size: 14px;
             }
             .project-name {
