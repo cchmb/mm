@@ -167,6 +167,7 @@ header {
     min-height: auto;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/machu-picchu.jpg');
     background-position: center center;
+    background-attachment: fixed;
     @include background-cover;
     text-align: center;
     color: white;
