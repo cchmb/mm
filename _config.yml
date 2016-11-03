@@ -2,6 +2,8 @@
 title: Mud and Miracles
 url: "https://mudandmiracles.org"
 
+exclude: []
+
 # Build settings
 markdown: kramdown
 sass:
